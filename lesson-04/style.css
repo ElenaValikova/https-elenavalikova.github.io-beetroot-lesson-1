@@ -1,8 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 h1 {
   background-color: #a52a2a;
   color: #ffffff;
   text-align: center;
 }
+
 p {
   font-size: 18px;
 }

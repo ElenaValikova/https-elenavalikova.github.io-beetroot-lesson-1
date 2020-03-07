@@ -1,0 +1,9 @@
+%container {
+  //свободное название
+  max-width: $max-width;
+  margin: 0 auto;
+}
+%visible-z {
+  position: relative;
+  z-index: 1;
+}

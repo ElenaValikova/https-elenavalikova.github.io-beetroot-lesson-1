@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp dev",
+    "validate": "gulp validate",
+    "build": "gulp build"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

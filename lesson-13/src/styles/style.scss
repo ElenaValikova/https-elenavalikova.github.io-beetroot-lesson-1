@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700,800&display=swap");
+
+// Core
+@import "./core/vars";
+@import "./core/inheritance";
+@import "./core/mixins";
+@import "./core/common";
+
+// Common components
+@import "./components/button";
+@import "./components/scroll";
+@import "./components/burger";
+@import "./components/link-card";
+
+// Components
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/header";
+@import "./components/section-about";
+@import "./components/section-services";

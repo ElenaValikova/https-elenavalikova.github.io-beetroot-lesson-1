@@ -57,7 +57,7 @@
   line-height: 34px;
 }
 
-.button__link {
+.btn {
   border: 1px solid #eca965;
   text-decoration: none;
   padding: 10px;
@@ -71,12 +71,12 @@
   letter-spacing: 3.6px;
 }
 
-.button__link:hover {
+.btn:hover {
   color: white;
   box-shadow: 0 0 5px black;
   background-color: #eca965;
 }
-.button__link {
+.button {
   margin-top: 40px;
   margin-bottom: 40px;
   width: 140px;

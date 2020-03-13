@@ -11,3 +11,9 @@
   text-decoration: none;
   color: $white;
 }
+.button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Тень */
+  background-color: #b07cf7;
+  color: $dark;
+  transform: scale(1.5);
+}

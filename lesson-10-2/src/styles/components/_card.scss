@@ -14,6 +14,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.9); /* Тень */
   }
   &__date-box {
     position: absolute;

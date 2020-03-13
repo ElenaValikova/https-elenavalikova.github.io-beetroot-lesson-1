@@ -9,7 +9,7 @@
     font-weight: 700;
     color: $white;
     line-height: 0.75;
-    margin-bottom: 42px;
+    margin-bottom: 44px;
   }
   &__description {
     font-size: $section-description-fs;
@@ -18,7 +18,7 @@
     max-width: 570px;
     text-align: center;
     color: $white;
-    margin-bottom: 44px;
+    margin-bottom: 45px;
   }
   &__list {
     @extend %container;

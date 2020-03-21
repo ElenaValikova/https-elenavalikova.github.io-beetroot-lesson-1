@@ -11,7 +11,7 @@
   }
   &__list {
     list-style: none;
-    @include flex(flex-start, center, column);
+    @include flex(flex-start,  center, column);
     position: fixed;
     top: 100px;
     right: 0;
@@ -33,9 +33,10 @@
         margin-right: 32px;
       }
     }
+    
   }
   &__link {
-    @include text($H100, 700);
+    @include text($H100, 700,);
     text-transform: uppercase;
     @media screen and (min-width: $screen-tablet) {
       padding-top: 2px;

@@ -1,11 +1,14 @@
+@import url('fonts/stylesheet.css');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   body {
-    width: 100%;
-  
+    font-family: Arial;
+    padding: 40px;
+    min-height: 100vh;
     background-color: #464f54;
   }
   .main {
@@ -48,10 +51,11 @@
   }
   .main__text {
     color: #000000;
-    font-family: "Georgia - Italic";
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 30px;
+    opacity: 0.7;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 300;
   }
   .aside-bar {
     display: flex;

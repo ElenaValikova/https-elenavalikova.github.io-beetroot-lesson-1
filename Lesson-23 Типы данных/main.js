@@ -123,6 +123,37 @@ else {
 
 // 9. Задать пользователю 3 вопроса, в каждом вопросе по 3 варианта ответа. За каждый правильный ответ начисляется 2 балла. После вопросов выведите пользователю количество набранных баллов.
 
+let a = 0;
+let firstQuestion = prompt('Кто первым выполнил сальто Делчева? Варианты: 1 - Бубка, 2 - Болт, 3 - Делчев. Введите соответствующую цифру.');
+if (firstQuestion == 3) {
+    a = a + 2
+}
+let secondQuestion = prompt('Сколько ног у слона? Варианты: 1 - три, 2 - не знаю, 3 - пять. Введите соответствующую цифру.');
+if (secondQuestion == 2) {
+    a = a + 2
+}
+let thirdQuestion = prompt('Сколько сантиметров в метре? Варианты: 1 - три, 2 - много, 3 - около ста. Введите соответствующую цифру.');
+if (thirdQuestion == 3) {
+    a = a + 2
+}
+alert(`Вы набрали ${a} балла(ов).`);
 
 // 10. Запросить дату (день, месяц, год) и вывести следующую за ней дату. Учтите возможность перехода на следующий месяц, год, а также високосный год.
 
+const inputDay = prompt('Enter a day');
+const inputMonth = prompt('Enter a month');
+const inputYear = prompt('Enter a year');
+
+const date = new Date(
+    Number(inputYear),
+    Number(inputMonth - 1), 
+    Number(inputDay) + 1
+);
+    
+console.log(
+    date.toLocaleDateString('ru', { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric'
+    }) 
+);

@@ -20,15 +20,15 @@ const showNumber = function () {
 alert(showNumber());
 
 // 2. Написать функцию, которая вычисляет факториал переданного ей числа.
-alert('Task 2');
-let n = prompt("Enter enter to calculate factorial");
-const factorial = function() {
-    if(n) {
-        return n* factorial(n - 1);
+const factorial = function(n) {
+    if (n) {
+        return n * factorial(n - 1);
     }
     return 1;
 };
-alert(factorial());
+
+consolele.log(factorial(0));
+
 
 
 // 3. Написать функцию, которая принимает три отдельные цифры и превращает их в одно число.
